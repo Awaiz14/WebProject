@@ -78,8 +78,37 @@ p {
     text-align: center;
     font-family:"Philosopher";
     font-size: 30px;
+    animation: fade-in 9s;
 }
 
+.Button1:hover {
+    background-color: white;
+    color: black;
+    transition: 0.7s;
+    transform: scale(1.1);
+    border-style: solid;
+    border-color: black; 
+}
 
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 
+.Fade1 {
+    animation: fade-in 3s;
+}
+.Fade2 {
+    animation: fade-in 5s;
+}
+.Fade3 {
+    animation: fade-in 7s;
+}
 

@@ -52,3 +52,13 @@ nav a:hover {
 
 }
 
+.Title {
+    color:white;
+    margin-left: 20px;
+    font-family: 'Sail', cursive;
+    font-size: 70px;
+    font-weight: 100;
+    text-shadow: 2px 2px black
+}  
+
+
