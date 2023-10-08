@@ -58,7 +58,8 @@ nav a:hover {
     font-family: 'Sail', cursive;
     font-size: 70px;
     font-weight: 100;
-    text-shadow: 2px 2px black
+    text-shadow: 2px 2px black;
+    border: solid 4px black;
 }   
 
 .Container {
@@ -69,7 +70,9 @@ nav a:hover {
     flex-wrap: wrap;
     gap: 60px 60px;
     padding: 20px 50px 60px 50px;
-    border: solid 5px black;
+    margin-bottom: 10px;
+    border: solid 4px black;
+   
 }
 
 .Container .Card {
@@ -81,6 +84,7 @@ nav a:hover {
     height: 300px;
     background: white;
     border-radius: 40px;
+    border: solid 3px black;
 }
 
 .Container .Card:hover {
@@ -141,4 +145,55 @@ margin-bottom: -20px;
     transition: 0.5s;
     top: 80px ;
     height: 250px;
+}
+
+.Container2 {
+    display: flex;
+    column-gap: 20px;
+    border: solid 4px black;
+    margin-bottom: 10px;
+}
+
+.Story {
+    background-color: #DDC565;
+    margin-left: 20px;
+    padding: 10px;
+    border: 4px solid black;
+    border-radius: 20px;
+}
+
+.Container2 .Story p {
+    color: black;
+    font-size: 23px;
+    font-family: "Philosopher";
+    margin-bottom: 0px;
+    margin-top: 5px;
+
+}
+
+.Container2 .Story h1 {
+    color:white;
+    font-size: 50px;
+    font-weight: 100;
+    font-family: "sail";
+    text-shadow: 2px 2px black;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.Value {
+    background-color: #DDC565;
+    padding: 10px;
+    border: 4px solid black;
+    border-radius: 20px;
+}
+
+
+.Container2 .Value h1 {
+    color:white;
+    font-size: 50px;
+    font-weight: 100;
+    font-family: "sail";
+    text-shadow: 2px 2px black;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
