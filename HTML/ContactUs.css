@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: yellow;
+    background-color: #af1616;
 }
 
 nav {
@@ -60,5 +60,78 @@ nav a:hover {
     font-weight: 100;
     text-shadow: 2px 2px black
 }  
+
+
+.social-links {
+    display: flex;
+    column-gap: 50px;
+    justify-content: center;
+    border-top: solid 4px red;
+    border-bottom: solid 4px red;
+    flex-wrap: wrap;
+    background-image: linear-gradient(to right, yellow , red);
+    margin-bottom: 20px;
+}
+
+img{
+    width: 150px;
+    
+}
+
+
+
+h1 {
+    color:white;
+    margin-left: 20px;
+    font-family: 'Sail', cursive;
+    font-size: 70px;
+    font-weight: 100;
+    text-shadow: 2px 2px black
+}
+
+
+.heading {
+    display: flex;
+    justify-content: center;
+}
+
+.heading p {
+    color: white;
+    font-size: 30px;
+    font-family: 'Philosopher', cursive;
+    border: double 6px #DDC565;
+    padding: 10px 10px;
+}
+
+
+
+.container2 {
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    row-gap: 20px;
+}
+
+.map {
+    width: 350px;
+    border: solid 4px black ;
+    display: flex;
+}
+.ua92 {
+    width: 450px;
+    border: solid 4px black ;
+}
+
+.fulladdress {
+    color: white;
+    font-size: 40px;
+    font-family: 'Philosopher', cursive;
+    margin: 0px 0px 0px 0px;
+    padding: 20px;
+    text-align: center;
+}
+
+
 
 
