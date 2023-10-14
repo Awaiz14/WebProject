@@ -1,11 +1,11 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #af1616;
-}
-
-p {
-    color: white;
+    background-image: url(back1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+        
 }
 
 nav {
@@ -18,7 +18,7 @@ nav {
 
 ul {
     padding: 0;
-    margin: 0 0 0 250px;
+    margin: 0 0 0 230px;
     list-style:none;
 }
 
@@ -47,12 +47,9 @@ nav a:hover {
 
 .logo img {
     position: absolute;
+    height: 150px;
     margin-left: 10px;
-    margin-top: 4px;
-    width: 170px;
-    height: 146px;
-    max-width: 170px;
-    max-height: 146px;
+    border-bottom: 5px solid black;
 }
 
 .SignUp-form {
@@ -109,7 +106,7 @@ a {
 	text-decoration: none;
 }
 
-img {
+.plate {
 	width: 100px;
 }
 
