@@ -43,5 +43,8 @@ function validateForm() {
     
     // Additional validation logic for other fields
     
+
     return true;
-    }
+   
+}
+
