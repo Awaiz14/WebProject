@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: green;
+    background-color: #af1616;
 }
 
 nav {
@@ -10,7 +10,6 @@ nav {
     background-color: #DDC565;
     overflow: auto;
     border-bottom: 5px solid black;
-
 }
 
 ul {
@@ -56,5 +55,31 @@ nav a:hover {
     font-family: 'Sail', cursive;
     font-size: 70px;
     font-weight: 100;
-    text-shadow: 2px 2px black
+    text-shadow: 2px 2px black;
+    margin-top: 46.900px;  /* added due to bootstrap */
+    margin-bottom: 46.900px; /* added due to bootstrap */
 }  
+
+.container {
+    
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+}
+
+#carousel {
+    border: solid 2px #FFFF00;
+    box-shadow: 0 0 20px white,
+    0 0 25px yellow;
+    margin: auto;
+    width: 650px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px){
+    #carousel {
+        width:100%
+    }
+}

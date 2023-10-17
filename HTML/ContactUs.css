@@ -8,7 +8,7 @@ nav {
     width: 100%;
     height: 150px;
     background-color: #DDC565;
-    overflow: auto;
+    overflow:auto;
     border-bottom: 5px solid black;
 
 }
@@ -56,8 +56,8 @@ nav a:hover {
     font-family: 'Sail', cursive;
     font-size: 70px;
     font-weight: 100;
-    text-shadow: 2px 2px black
-}  
+    text-shadow: 2px 2px black;
+}   
 
 
 .social-links {
@@ -71,7 +71,7 @@ nav a:hover {
     margin-bottom: 20px;
 }
 
-.social-icon{
+.social{
     width: 150px;
     
 }
@@ -107,29 +107,94 @@ h1 {
     display: flex;
     justify-content:center;
     flex-wrap: wrap;
+    column-gap: 10px;
     margin-bottom: 20px;
     row-gap: 20px;
 }
 
 .map {
     width: 350px;
-    border: solid 4px black ;
+    border: solid 4px white ;
     display: flex;
 }
 .ua92 {
-    width: 450px;
-    border: solid 4px black ;
+    width: 350px;
+    border: solid 4px white ;
 }
 
 .fulladdress {
     color: white;
+    background-color: #DDC565;
     font-size: 40px;
     font-family: 'Philosopher', cursive;
     margin: 0px 0px 0px 0px;
     padding: 20px;
     text-align: center;
+    border: solid white 4px;
 }
 
 
+.heading2 {
+    display: flex;
+    justify-content: center;
+}
+
+.heading2 p {
+    color: white;
+    font-size: 30px;
+    font-family: 'Philosopher', cursive;
+    border: double 6px #DDC565;
+    padding: 10px 10px;
+}
+
+.container3 {
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.businesscard {
+    color: white;
+    background-color: #DDC565;
+    margin: 0px 0px 0px 0px;
+    padding: 20px;
+    text-align: center;
+    border: solid #242757 4px;
+}
+
+.contactinfo {
+    margin-top: 0px;
+    font-size: 25px;
+    font-family: 'Philosopher', cursive;
+    color: #242757;
+}
+
+.cardlogo {
+    width:200px;
+    margin-top: 10px;
+}
 
 
+@media (max-width: 1260px) {
+    .container2 {
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+        row-gap: 20px;
+    }
+    
+    .map{
+        border: solid black 4px;
+    }
+    
+    .ua92 {
+        border: solid black 4px;
+    }
+
+    .fulladdress {
+        border: solid black 4px;
+    }
+}

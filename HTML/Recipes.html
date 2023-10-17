@@ -2,31 +2,228 @@
 <html>
     <head>
         <title> WeLoveFood </title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
         <link rel="stylesheet" href="Recipes.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@1,700&family=Sail&display=swap" rel="stylesheet">
+    
+        <style>
+         .card {background-color: white;} 
+         .card-title {font-family: "philosopher";} 
+
+         [class="btn btn-primary"] {
+            background-color: #242757;
+            border-color: black;
+         }
+
+         .exclusive {   color:white;
+    margin-left: 20px;
+    font-family: 'Sail', cursive;
+    font-size: 70px;
+    font-weight: 100;
+    text-shadow: 2px 2px black;
+    margin-top: 46.900px;  /* added due to bootstrap */
+    margin-bottom: 46.900px; /* added due to bootstrap */}
+
+    .carousel-title {
+        font-family: "philosopher";
+        font-size: 40px;
+        text-shadow: 2px 2px black;
+
+    }
+
+    .carousel-description {
+        font-family: "philosopher";
+        font-size: 30px;
+        text-shadow: 2px 2px black;
+    }
+
+    .carousel-control-prev {
+        background-color: black;
+        width: 50px;
+        height: 50px;
+        border-radius: 40px;
+        margin: auto;
+    }
+    .carousel-control-next {
+        background-color: black;
+        width: 50px;
+        height: 50px;
+        border-radius: 40px;
+        margin: auto;
+    }
+        
+        </style>
+
     </head>
 
     <body>
-        <div class="logo"> <a href ="HomePage.html"><img src="logo3.png"> </a>
+        <div class="logo"> <a href ="HomePage.html"><img src="logo.png"> </a>
         </div>
 
         <nav> 
             <ul>
                 <li> <a href="HomePage.html"> HOME </a></li>
                 <li> <a href="Recipes.html"> RECIPES </a></li>
-                <li> <a href="SignUp.html"> SIGN UP </a></li>
-                <li> <a href="AboutUs.html"> ABOUT US </a></li>
-                <li> <a href="ContactUs.html"> CONTACT US </a></li>
+                <li> <a href="SignUp.html"> SIGN-UP </a></li>
+                <li> <a href="AboutUs.html"> ABOUT </a></li>
+                <li> <a href="ContactUs.html"> CONTACT </a></li>
                 
             </ul>
         </nav>
 
         <h1 class="Title">Recipes for you!</h1>
-       
+
+       <div class="container"> 
+            <div class="row gy-4">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card h-100">
+                        <img src="Recipe-imgs/fish.jpg" class="card-img-top" alt="Add image">
+                        <div class="card-body">
+                            <h5 class="card-title">Fish & Chips</h5>
+                            <p class="card-text">Dive into crispy fish and golden fries, a delightful combo of flavours and textures that satisifes cravings for British classics.</p>
+                            <a href="#" class="btn btn-primary"> Lets cook!</a>
+                        </div>
+                     </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card h-100">
+                        <img src="Recipe-imgs/lasagna.jpg" class="card-img-top" alt="Add image">
+                        <div class="card-body">
+                            <h5 class="card-title">Lasagna</h5>
+                            <p class="card-text"> Beautiful layers of cheesy goodness and rich flavours in every bite, a comforting Italian classic that brings families together.</p>
+                            <a href="#" class="btn btn-primary"> Lets cook!</a>
+                        </div>
+                     </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card h-100">
+                        <img src="Recipe-imgs/omelette.jpg" class="card-img-top" alt="Add image">
+                        <div class="card-body">
+                            <h5 class="card-title">Tortilla Española</h5>
+                            <p class="card-text"> Indulge in a Spanish delight with this classic omelette of eggs, potatoes and onions bursting with flavour and satisfaction.</p>
+                            <a href="#" class="btn btn-primary"> Lets cook!</a>
+                        </div>
+                     </div>
+                </div>
 
 
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card h-100">
+                        <img src="Recipe-imgs/spag.jpg" class="card-img-top" alt="Add image">
+                        <div class="card-body">
+                            <h5 class="card-title">Spaghetti Bolognese</h5>
+                            <p class="card-text"> Get ready for a mouthwatering treat with spaghetti bolognese! Its a classic Italian with pasta, rich meat sauce and a sprinkle of parmesan. </p>
+                            <a href="#" class="btn btn-primary"> Lets cook!</a>
+                        </div>
+                     </div>
+                </div>
+
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card h-100">
+                        <img src="Recipe-imgs/taco.jpeg" class="card-img-top" alt="Add image">
+                        <div class="card-body">
+                            <h5 class="card-title">Tacos (Beef)</h5>
+                            <p class="card-text"> Satisfy your taste buds with beef tacos, a flavourful Mexican dish filled with seasoned beef, fresh toppings and a kick of spice. Its Taco-licious! </p>
+                            <a href="#" class="btn btn-primary"> Lets cook!</a>
+                        </div>
+                     </div>
+                </div>
+
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card h-100">
+                        <img src="Recipe-imgs/fullenglish.jpg" class="card-img-top" alt="Add image">
+                        <div class="card-body">
+                            <h5 class="card-title">English Breakfast</h5>
+                            <p class="card-text"> Start your day with a hearty English breakfast: eggs, sausages, baked beans, toast and more. Its a classic morning feast. </p>
+                            <a href="#" class="btn btn-primary"> Lets cook!</a>
+                        </div>
+                     </div>
+                </div>
+                
+                
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card h-100">
+                        <img src="Recipe-imgs/biryani.jpg" class="card-img-top" alt="Add image">
+                        <div class="card-body">
+                            <h5 class="card-title">Biryani (Lamb)</h5>
+                            <p class="card-text"> Indulge in the aromatic flavours of lamb biryani, a delicious indian rice dish with tender lamb, fragrant spices and basmati rice. </p>
+                            <a href="#" class="btn btn-primary"> Lets cook!</a>
+                        </div>
+                     </div>
+                </div>
+
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card h-100">
+                        <img src="Recipe-imgs/kungpao.jpg" class="card-img-top" alt="Add image">
+                        <div class="card-body">
+                            <h5 class="card-title">Kung Pao Chicken</h5>
+                            <p class="card-text"> Experience the bold and spicy flavours of Kung Pao, a classic Sichuan dish with tender chicken, peanuts and chili peppers. </p>
+                            <a href="#" class="btn btn-primary"> Lets cook!</a>
+                        </div>
+                     </div>
+                </div>
+
+
+            </div>
+       </div>
+
+
+       <h1 class="exclusive"> Exclusive treats!</h1>
+
+       <div id="carousel" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+
+        <div class="carousel-inner">
+
+          <div class="carousel-item active">
+            <img src="Recipe-imgs/brownie.jpg">
+            <div class="carousel-caption d-block d-md-block">
+                <h5 class="carousel-title">Brownies</h5>
+                <p class="carousel-description">(Coming soon)</p>
+            </div>
+          </div>
+
+
+          <div class="carousel-item">
+            <img src="Recipe-imgs/pancake.jpg">
+            <div class="carousel-caption d-block d-md-block">
+                <h5 class="carousel-title">Pancakes</h5>
+                <p class="carousel-description">(Coming soon)</p>
+            </div>
+          </div>
+
+
+          <div class="carousel-item">
+            <img src="Recipe-imgs/cookies.jpg">
+            <div class="carousel-caption d-block d-md-block">
+                <h5 class="carousel-title">Cookies</h5>
+                <p class="carousel-description">(Members only)</p>
+            </div>
+          </div>
+        </div>
+        
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     </body>
 
 </html>
