@@ -101,7 +101,7 @@ nav a:hover {
 .Container .Card:hover .Box {
     top: -100px;
     transition: 0.5s;
-    scale: 0.75;
+    transform: scale(0.75);
 }
 
 .Container .Card .Box img {
@@ -155,6 +155,14 @@ margin-bottom: -20px;
     padding: 10px;
     border: 4px solid black;
     border-radius: 20px;
+}
+
+.navy {
+    color: #242757;
+}
+
+.red{
+    color: #FF3131;
 }
 
 .Container2 .Story p {
