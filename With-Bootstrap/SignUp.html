@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+	<title>Sign Up Form</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="SignUp.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@1,700&family=Sail&display=swap" rel="stylesheet">
+	<script src="SignUp.js"> </script>
+</head>
+	<body>
+            <div class="logo"> <a href ="HomePage.html"><img src="logo.png" alt="Brand-logo"> </a>
+            </div>
+    
+            <nav> 
+                <ul>
+                    <li> <a href="HomePage.html"> HOME </a></li>
+					<li> <a href="Recipes.html"> RECIPES </a></li>
+					<li> <a href="SignUp.html"> SIGN-UP</a></li>
+					<li> <a href="AboutUs.html"> ABOUT </a></li>
+					<li> <a href="ContactUs.html"> CONTACT </a></li>
+                    
+                </ul>
+            </nav>
+
+            <h1 class="Title">Join us now for free!</h1>
+		
+
+		<div class="SignUp-form">
+			<img class="plate" src="SignUp-imgs/plate.png" alt="plate-icon">
+			<h1> Sign Up!</h1>
+			<form>
+                <input type="text" id="first-name" class="input" placeholder="First Name">
+				<input type="text" id="surname" class="input" placeholder="Surname">
+				<input type="email" id="email" class="input" placeholder="Email">
+				<input type="password" id="password" class="input" placeholder="Password">
+				<p class="formtext"><span><input type="checkbox"></span> Subscribe for weekly recipes </p>
+				<button type="button" class="signup-btn" onclick="validateForm()">Sign up</button>
+				<p class="formtext">Already a member? <a href="#"> Login </a></p>
+			</form>
+		</div>	
+		
+		<h1 class="Title">Why you should sign up?</h1>
+
+		<div class="container">
+			<div class="box">
+				<img class="icon" src="SignUp-imgs/open-padlock.png" alt="lock-icon">
+				<h1 class="heading">  Access to exclusive recipes: </h1>
+				<p>As a member you will have access
+				to unique and delicious recipes only available for our community. </p>
+			</div>
+			<div class="box">
+				<img class="icon" src="SignUp-imgs/free.png" alt="free-icon">
+				<h1 class="heading"> Free weekly recipes: </h1>
+				<p>By signing up you can have weekly recipes and food ideas sent
+					directly to your inbox. </p>
+			</div>
+			<div class="box">
+				<img class="icon" src="SignUp-imgs/bookmark.png" alt="bookmark-icon">
+				<h1 class="heading"> Save and organise: </h1>
+				<p>  By registering you can save your favourite recipes and 
+					easily find them whenever you want. You can even make
+				your own collection! </p>
+			</div>
+
+		</div>
+
+	</body>
+</html>
