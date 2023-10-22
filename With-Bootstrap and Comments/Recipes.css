@@ -1,0 +1,85 @@
+body { /* Styling the main body */
+    margin: 0;
+    padding: 0; /* Setting no margin or padding for any content in the body*/
+    background-color: #af1616; /* Add background colour */
+}
+
+nav {
+    width: 100%; /* Keeps navigation bar full width of the screen */
+    height: 150px; /* Determines height of the navigation bar */
+    background-color: #DDC565;
+    overflow: auto; /* Adjusts Nav bar when the screen size is adjusted it automatically allows scrolling when all options cant show on one line */
+    border-bottom: 5px solid black; /* Sets a border at the bottom of nav bar */
+}
+
+ul {
+    padding: 0;
+    margin: 0 0 0 230px; /* Postions the Navigation options 230px left margin on webpage so options show to the right of the logo  */
+    list-style:none; /* Takes away the bullet list which is default */
+}
+
+li {
+    float: left; /* Makes the navigation options appear from left to right */
+}
+
+
+nav a { /* Styles the text of the navigation options */
+    color: white;
+    display: block; /* Sets a space for each navigation option allowing it to take up the length of the text and appear side by side */
+    text-align: center; /* Centers text in its block */
+    line-height: 150px; /* Allows the navigation options to appear in center height of the navigation bar */
+    margin-right: 5px; /* Sets space between each navigation option */
+    padding: 0px 15px; /* Sets padding within each navigation options block */
+    text-decoration: none;
+    font-family: 'Courier', sans-serif; /* Sets the font and backup font */
+    font-size: 30px; /* Determined text size */
+}
+
+nav a:hover { /* Styles for hover over the navigation options */
+    background-color: black; /* Makes the navigation option background black to show it is being hovered over */
+    transition: 1s; /* Sets transition time (how long it takes for background to go black when hovered over) */
+    font-weight: Bold; /* Makes the text go bold when hovered over */
+    text-decoration: underline; /* Underlines the text when hovered over */
+}
+
+.logo img {
+    position: absolute; /* Determines precise position of logo keeping it top left*/
+    height: 150px; /* Sets height of logo (same as nav bar height) */
+    margin-left: 10px; /* Makes logo sit 10px away from left of webpage */
+    border-bottom: 5px solid black; /* Adds border to bottom of logo image making navigation bar consistent  */
+}
+
+.Title {
+    color:white;
+    margin-left: 20px;
+    font-family: 'Sail', sans-serif;
+    font-size: 70px;
+    font-weight: 100;
+    text-shadow: 2px 2px black;
+    margin-top: 46.900px;  /* added due to bootstrap */
+    margin-bottom: 46.900px; /* added due to bootstrap */
+}  
+
+.container { /* Style container if needed */
+    border: solid 0px; /* Decided to take border off */
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+}
+
+#carousel { /* Styles the carousel container (box) */
+    border: solid 2px #FFFF00; /* Sets a neon affect border */
+    box-shadow: 0 0 20px white, /* Sets a neon affect border */
+    0 0 25px yellow; /* Sets a neon affect border */
+    margin: auto; /* Centers the carousel box in center of webpage */
+    width: 650px; /* Sets a size for the carousel box */
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) { /* Style media query for when screen is smaller */
+    #carousel {
+        width:100% /* Keeps the carousel width full depending on screen size */
+    }
+}

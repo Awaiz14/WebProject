@@ -1,0 +1,115 @@
+body { /* Styling the main body */
+    margin: 0; 
+    padding: 0; /* Setting no margin or padding for any content in the body*/
+    background-image: url(HomePage-imgs/food.jpg); /* Adding image as background */
+    background-repeat: no-repeat; 
+    background-attachment: fixed; /* Keeps image in place so does not move when scrolling */
+    background-size: cover; /* Allows image to cover full page */
+    background-position: center;
+}
+
+nav {
+    width: 100%; /* Keeps navigation bar full width of the screen */
+    height: 150px; /* Determines height of the navigation bar */
+    background-color: #DDC565;
+    overflow: auto; /* Adjusts Nav bar when the screen size is adjusted it automatically allows scrolling when all options cant show on one line */
+    border-bottom: 5px solid black; /* Sets a border at the bottom of nav bar */
+}
+
+ul {
+    padding: 0;
+    margin: 0 0 0 230px; /* Postions the Navigation options 230px left margin on webpage so options show to the right of the logo  */
+    list-style:none; /* Takes away the bullet list which is default */
+}
+
+li {
+    float: left; /* Makes the navigation options appear from left to right */
+}
+
+
+nav a { /* Styles the text of the navigation options */
+    color: white;
+    display: block; /* Sets a space for each navigation option allowing it to take up the length of the text and appear side by side */
+    text-align: center; /* Centers text in its block */
+    line-height: 150px; /* Allows the navigation options to appear in center height of the navigation bar */
+    margin-right: 5px; /* Sets space between each navigation option */
+    padding: 0px 15px; /* Sets padding within each navigation options block */
+    text-decoration: none;
+    font-family: 'Courier', sans-serif; /* Sets the font and backup font */
+    font-size: 30px; /* Determined text size */
+}
+
+nav a:hover { /* Styles for hover over the navigation options */
+    background-color: black; /* Makes the navigation option background black to show it is being hovered over */
+    transition: 1s; /* Sets transition time (how long it takes for background to go black when hovered over) */
+    font-weight: Bold; /* Makes the text go bold when hovered over */
+    text-decoration: underline; /* Underlines the text when hovered over */
+}
+
+.logo img {
+    position: absolute; /* Determines precise position of logo keeping it top left*/
+    height: 150px; /* Sets height of logo (same as nav bar height) */
+    margin-left: 10px; /* Makes logo sit 10px away from left of webpage */
+    border-bottom: 5px solid black; /* Adds border to bottom of logo image making navigation bar consistent  */
+}
+
+h1 { /* Styles the heading texts */
+    color:white; /* Sets colour */
+    font-size: 70px; /* Sets text size */
+    font-family: 'Sail', sans-serif; /* Sets the font */
+    font-weight: 100; /* Sets the boldness */
+    text-shadow: 2px 2px black; /* Adds shadow behind text making it more visible on background */
+    text-align: center; /* Sets text to show in center of page */ 
+    margin-top: 46.900px; /* Added due to bootstrap as it takes away default margins */
+    margin-bottom: 46.900px; /* Added due to bootstrap as it takes away default margins */
+}
+
+.Button{
+    text-align: center; /* Positions the items in this container in center of page*/
+    margin-bottom: 20px; /* Adds space below the button  */
+}
+
+.Explore-btn { /* Styles the button */
+    background-color: black;
+    color: white;
+    border-style: solid; /* Adds border to button */
+    border-color: white;
+    padding: 20px; /* Adds padding so there is space inside of button */
+    cursor: pointer; /* Makes pointer appear when hover over button */
+    text-align: center; /* Centers the text inside button */
+    font-family:'Philosopher', sans-serif; /* Sets font and backup font */
+    font-size: 30px; /* Sets text size */
+    animation: fade-in 9s; /* adds animation determined below, takes 9 seconds for it to appear*/
+}
+
+.Explore-btn:hover { /* Styles for hover effect */
+    background-color: white; /* Makes background of button white when hovered over */
+    color: black;
+    transition: 0.7s; /* Takes 0,7s to transition the hover effect */
+    transform: scale(1.1); /* Makes the button appear bigger when hovered over */
+    border-style: solid;
+    border-color: black; 
+}
+
+@keyframes fade-in { /* Keyframes is used to create animations, creates specific points in the animation */
+    0% {
+        opacity: 0; /* Starting point of fade in has text opacity as 0 so doesnt show on webpage */
+    }
+    50% {
+        opacity: 0; /* Mid point still has opacity 0 so does not show */
+    }
+    100% {
+        opacity: 1; /* End point shows the text on screen givine the fade in effect */
+    }
+}
+
+.Fade1 {
+    animation: fade-in 3s; /* Each element that includes fade has been assigned a class name allowing text to appear at different times */
+}
+.Fade2 {
+    animation: fade-in 5s; /* Makes the second heading appear after 5 seconds */
+}
+.Fade3 {
+    animation: fade-in 7s; /* Makes 3rd heading show after 7 seconds giving the text a timely order to appear on screen */
+}
+

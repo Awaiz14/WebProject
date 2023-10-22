@@ -1,0 +1,175 @@
+body { /* Styling the main body */
+    margin: 0;
+    padding: 0; /* Setting no margin or padding for any content in the body*/
+    background-color: #af1616; /* Add background colour */
+}
+
+nav {
+    width: 100%; /* Keeps navigation bar full width of the screen */
+    height: 150px; /* Determines height of the navigation bar */
+    background-color: #DDC565;
+    overflow: auto; /* Adjusts Nav bar when the screen size is adjusted it automatically allows scrolling when all options cant show on one line */
+    border-bottom: 5px solid black; /* Sets a border at the bottom of nav bar */
+}
+
+ul {
+    padding: 0;
+    margin: 0 0 0 230px; /* Postions the Navigation options 230px left margin on webpage so options show to the right of the logo  */
+    list-style:none; /* Takes away the bullet list which is default */
+}
+
+li {
+    float: left; /* Makes the navigation options appear from left to right */
+}
+
+
+nav a { /* Styles the text of the navigation options */
+    color: white;
+    display: block; /* Sets a space for each navigation option allowing it to take up the length of the text and appear side by side */
+    text-align: center; /* Centers text in its block */
+    line-height: 150px; /* Allows the navigation options to appear in center height of the navigation bar */
+    margin-right: 5px; /* Sets space between each navigation option */
+    padding: 0px 15px; /* Sets padding within each navigation options block */
+    text-decoration: none;
+    font-family: 'Courier', sans-serif; /* Sets the font and backup font */
+    font-size: 30px; /* Determined text size */
+}
+
+nav a:hover { /* Styles for hover over the navigation options */
+    background-color: black; /* Makes the navigation option background black to show it is being hovered over */
+    transition: 1s; /* Sets transition time (how long it takes for background to go black when hovered over) */
+    font-weight: Bold; /* Makes the text go bold when hovered over */
+    text-decoration: underline; /* Underlines the text when hovered over */
+}
+
+.logo img {
+    position: absolute; /* Determines precise position of logo keeping it top left*/
+    height: 150px; /* Sets height of logo (same as nav bar height) */
+    margin-left: 10px; /* Makes logo sit 10px away from left of webpage */
+    border-bottom: 5px solid black; /* Adds border to bottom of logo image making navigation bar consistent  */
+}
+
+.Title { /* Styles the title heading */
+    color:white;
+    margin-left: 20px;
+    font-family: 'Sail', sans-serif;
+    font-size: 70px;
+    font-weight: 100;
+    text-shadow: 2px 2px black;
+    margin-top: 46.900px;  /* added due to bootstrap */
+    margin-bottom: 46.900px; /* added due to bootstrap */
+}   
+
+
+.social-links { /* Styles the container */
+    display: flex; /* Responsive layout */
+    column-gap: 50px; /* Space between each social media icon */
+    justify-content: center; /* Centers all icons */
+    border-top: solid 4px red;
+    border-bottom: solid 4px red; /* Adds border to container */
+    flex-wrap: wrap;
+    background-image: linear-gradient(to right, yellow , red); /* Adds gradient background */
+    margin-bottom: 20px;
+}
+
+.social-icon { /* Styles the social media icons */
+    width: 150px; /* Sets size of icon */
+    
+}
+
+.heading { /* Styles the heading container */
+    display: flex;
+    justify-content: center; /* Centers heading */
+}
+
+h3 { /* Styles the heading texts */
+    color: white;
+    font-size: 30px;
+    font-family: 'Philosopher', sans-serif; /* Sets font and backup font */
+    border: double 6px #DDC565; /* Adds a double border to headings */
+    padding: 10px 10px;
+    margin-top: 30px; /* Added margin space due to bootstrap */
+    margin-bottom: 30px; /* Added margin space due to bootstrap */
+}
+
+.container2 { /* Styles 2nd container */
+    display: flex;
+    justify-content: center; /* Puts content in center */
+    flex-wrap: wrap;
+    column-gap: 15px; /* Sets gap between the items */
+    margin-bottom: 20px;  
+}
+
+.map { /* Styles the map image */
+    width: 350px; /* Sets size of map */
+    border: solid 4px white ;
+    
+}
+
+.ua92 { /* Styles ua92 image */
+    width: 350px; /* Sets size of ua92 image */
+    border: solid 4px white ;
+}
+
+.fulladdress { /* Styles the address item which contains text */
+    color: white;
+    background-color: #DDC565;
+    font-size: 40px;
+    font-family: 'Philosopher', sans-serif; /* Sets fomt for text in this box */
+    margin: 0px 0px 0px 0px; /* No margins in box */
+    padding: 20px;
+    text-align: center; /* Aligns all text center of box */
+    border: solid white 4px;
+}
+
+.container3 { /* Styles the 3rd container */
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.businesscard { /* Styles the business card item */
+    background-color: #DDC565; /* Sets background colour */
+    margin: 0px 0px 0px 0px;
+    padding: 20px;
+    text-align: center; /* Centers all the text */
+    border: solid #242757 4px;
+}
+
+.contactinfo { /* Styles the contact details text */
+    margin-top: 0px;
+    font-size: 25px; /* Sets text size */
+    font-family: 'Philosopher', sans-serif;
+    color: #242757; /* Sets text colour */
+}
+
+.cardlogo { /* Styles the logo in business card */
+    width:200px; /* Sets size of logo */
+    margin-top: 10px; /* Margin space on top of logo */
+}
+
+
+@media (max-width: 1260px) { /* Media query used to adjust content when certain screen size */
+    .container2 {
+        display: flex;
+        flex-direction: column; /* Items go from horizontal to vertical alignment */
+        align-items:center; /* Items vertically centered */
+        flex-wrap: wrap;
+        row-gap: 20px; /* Vertical gap between each item */
+        margin-bottom: 20px;
+        
+    }
+    
+    .map{ /* Styles for map when this media query is applied */
+        border: solid black 4px; /* Has black border come in place of white */
+    }
+    
+    .ua92 { /* Styles for ua92 image when this media query is applied */
+        border: solid black 4px; /* Has black border come in place of white */
+    }
+
+    .fulladdress { /* Styles for address box when this media query is applied */
+        border: solid black 4px; /* Has black border come in place of white */
+    }
+} /* Media query end bracket */

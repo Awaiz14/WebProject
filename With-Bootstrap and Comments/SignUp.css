@@ -1,0 +1,162 @@
+body { /* Styling the main body */
+    margin: 0; 
+    padding: 0; /* Setting no margin or padding for any content in the body*/
+    background-image: url(SignUp-imgs/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Keeps image in place so does not move when scrolling */
+    background-size: cover; /* Allows image to cover full page */
+    background-position: center;
+        
+}
+
+nav {
+    width: 100%; /* Keeps navigation bar full width of the screen */
+    height: 150px; /* Determines height of the navigation bar */
+    background-color: #DDC565;
+    overflow: auto; /* Adjusts Nav bar when the screen size is adjusted it automatically allows scrolling when all options cant show on one line */
+    border-bottom: 5px solid black; /* Sets a border at the bottom of nav bar */
+}
+
+ul {
+    padding: 0;
+    margin: 0 0 0 230px; /* Postions the Navigation options 230px left margin on webpage so options show to the right of the logo  */
+    list-style:none; /* Takes away the bullet list which is default */
+}
+
+li {
+    float: left; /* Makes the navigation options appear from left to right */
+}
+
+
+nav a { /* Styles the text of the navigation options */
+    color: white;
+    display: block; /* Sets a space for each navigation option allowing it to take up the length of the text and appear side by side */
+    text-align: center; /* Centers text in its block */
+    line-height: 150px; /* Allows the navigation options to appear in center height of the navigation bar */
+    margin-right: 5px; /* Sets space between each navigation option */
+    padding: 0px 15px; /* Sets padding within each navigation options block */
+    text-decoration: none;
+    font-family: 'Courier', sans-serif; /* Sets the font and backup font */
+    font-size: 30px; /* Determined text size */
+}
+
+nav a:hover { /* Styles for hover over the navigation options */
+    background-color: black; /* Makes the navigation option background black to show it is being hovered over */
+    transition: 1s; /* Sets transition time (how long it takes for background to go black when hovered over) */
+    font-weight: Bold; /* Makes the text go bold when hovered over */
+    text-decoration: underline; /* Underlines the text when hovered over */
+}
+
+.logo img {
+    position: absolute; /* Determines precise position of logo keeping it top left*/
+    height: 150px; /* Sets height of logo (same as nav bar height) */
+    margin-left: 10px; /* Makes logo sit 10px away from left of webpage */
+    border-bottom: 5px solid black; /* Adds border to bottom of logo image making navigation bar consistent  */
+}
+
+.SignUp-form { /* Styles the Sign up form box */
+	width: 450px; /* Size of the sign up form */
+    background: #DDC565;
+    border: 4px solid black ;
+    padding: 30px;
+    margin: 0% auto 0; /* Centers the sign up form */
+    text-align: Center; /* Centers all elements within the form */
+    margin-bottom: 20px;
+}
+
+.SignUp-form h1 { /*Styles the form title */
+	color: #242757;
+    font-size: 50px;
+    font-family: "Philosopher",sans-serif;
+}
+
+.formtext { /* Styles the text within the form  */
+    color: black;
+    font-size: 25px;
+    font-family: "Philosopher", sans-serif;
+}
+
+.input { /* Styles the input box */
+	border-radius: 10px; /* Slightly rounded box  */
+	padding: 5px;
+	margin: 10px 0;
+	width: 100%; /* Takes up 100% width in the form box  */	
+	border: 1px solid black;
+	outline: none;
+}
+
+button { /* styles any buttons on page  */
+	color: #fff;
+	width: 100%;
+	padding: 10px;
+	border-radius: 20px; /* Rounded button  */
+	margin: 10px 0;
+	border: none;
+	outline: none;
+	cursor: pointer; /* Adds pointer when hovering over button  */
+}
+
+.signup-btn { /* Styles signup button specifically  */
+	background-color: #242757;
+	width: 50%; /* Set size of button */
+    font-size: 20px; /* Set text size  */
+}
+
+a {
+	text-decoration: none; /* Takes away the underline for the link */
+}
+
+.plate {
+	width: 100px; /* Size of icon on top of form */
+}
+
+.Title { /* Style the title heading */
+    color:white;
+    margin-left: 20px;
+    font-family: 'Sail', sans-serif;
+    font-size: 70px;
+    font-weight: 100;
+    text-shadow: 2px 2px black;
+    margin-top: 46.900px;  /* added due to bootstrap */
+    margin-bottom: 46.900px; /* added due to bootstrap */
+}  
+
+.container{ /* Style the container */
+    display: flex; /* Aligns items and makes responsive */
+    justify-content: center; /* Centers items horizontally */
+    flex-wrap: wrap; /* Allows items on new line if not enough space */
+}
+
+.box { /* Styles the box the content is in */
+    border: solid 4px black;
+    border-radius: 30px; /* Rounded box */
+    background-color: #af1616;
+    padding: 10px;
+    margin: 20px;
+    text-align: center; /* Centers text  */
+}
+
+.icon { /* Styles the icon in the box  */
+    width: 60px; /* Sets icon size */
+}
+
+.heading { /* Styles the headings of each item */
+    color: white;
+    font-size: 40px;
+    font-family: "Philosopher",sans-serif; /* Sets font and backup font  */
+    text-shadow: 2px 2px black;
+    margin-top: 0px; /* Sets no margin space at top  */
+}
+
+.container .box p { /* Styles the paragraph within the boxes */
+    color: white;
+    font-size: 30px; /* Sets text size */
+    font-family: "Philosopher",sans-serif;
+}
+
+
+
+
+
+
+

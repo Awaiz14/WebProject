@@ -1,0 +1,114 @@
+<!DOCTYPE html>  <!-- Specify the document is written in HTML -->
+<html lang="en"> <!-- indicates start of HTML document and the language of it (english) -->
+    <head> <!-- Head section provides non-visible information, metadata and resource links -->
+        <meta charset="UTF-8"> <!-- Specify metadata such as character encoding -->
+        <title> WeLoveFood </title> <!-- Set the title of the page which is shown in the browser tabs -->
+        <link rel="stylesheet" href="AboutUs.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@1,700&family=Sail&display=swap" rel="stylesheet">
+        <!-- Links elements to link external resources starting with CSS style sheet and Google fonts -->
+    </head>
+
+    <body> <!-- Main content of the webpage goes in here -->
+        <div class="logo"> <!-- Div creates a container for the logo to appear on webpage -->
+            <a href ="HomePage.html">
+            <img src="logo.png" alt="Brand-logo"> </a>
+        </div>  
+
+        <nav>  <!-- Used to create a navigation bar on webpage -->
+            <ul> <!-- Unordered list used to create bulleted list-->
+                <li> <a href="HomePage.html"> HOME </a></li> <!-- List elements all include the different webpages with href to link them together when clicked on-->
+                <li> <a href="Recipes.html"> RECIPES </a></li>
+                <li> <a href="SignUp.html"> SIGN-UP</a></li>
+                <li> <a href="AboutUs.html"> ABOUT </a></li>
+                <li> <a href="ContactUs.html"> CONTACT </a></li>   
+            </ul>
+        </nav>
+
+        <h1 class="Title"> A little bit about us...</h1> <!-- Add title class to style in css -->
+        
+        <div class="Container"> <!-- Create container which has animated cards -->
+            
+            <div class="Card"> <!-- Creats a card -->
+                <div class="Box"> <img src="AboutUs-imgs/who.png" alt="Food-image">  </div> <!-- Adds an image box within card -->
+                <div class="Writing"> <!-- Adds div for text within the card -->
+                    <h2> Who We Are </h2> <!-- Title of the card -->
+                    <P><span class="navy">We</span><span class="red">Love</span><span class="navy">Food</span> <!-- Span used to seperate the words so they can be a certain colour -->
+                        is a community for food enthusiasts who share a 
+                        common love for different foods and flavours. </P> <!-- Paragraph used for description content in card -->
+                </div>
+            </div> 
+
+            <!-- Copy and Pasted above code to add as many cards I needed -->
+            <div class="Card"> 
+                <div class="Box"> <img src="AboutUs-imgs/what.png" alt="Food-image"> </div>
+                <div class="Writing">
+                    <h2> What We Do </h2>
+                    <P> At <span class="navy">We</span><span class="red">Love</span><span class="navy">Food</span>
+                        we deliver mouth-watering recipes and provide food 
+                        related inspiration for our fellow foodies. </P> 
+                </div>
+            </div>  
+
+            <!-- Copy and Pasted above code to add as many cards I needed -->
+            <div class="Card"> 
+                <div class="Box"> <img src="AboutUs-imgs/goal.png" alt="Food-image"> </div>
+                <div class="Writing"> 
+                    <h2> Our Main Goal </h2>
+                    <P> At <span class="navy">We</span><span class="red">Love</span><span class="navy">Food</span>
+                        our aim is to bring food lovers together and make 
+                        the kitchen your favourite place. </P> 
+                </div> <!-- End div for text -->
+            </div>  <!-- End div for animated card -->
+        </div> <!-- End div for container  -->
+
+        <div class="Container2"> <!-- New container for more content -->
+
+            <div class="Story"> <!-- Div class to create a box which contains content about our story -->
+                <h1> Our story...</h1> <!-- Heading of Story -->
+                <p> <span class="navy">We</span><span class="red">Love</span><span class="navy">Food</span>
+                    was founded in 2023 by Awaiz Solkar, a true food lover <br>
+                    with a zest for culinary exploration. With a mission to <br>
+                    celebrate diverse flavours and unique dining experiences, Awaiz <br>
+                    and his team set out on a journey to capture hearts and taste buds <br>
+                    of food enthusiasts worldwide. It all started off with a food tour <br>
+                    in Manchester, a multi-cultural city in England with a thousand <br>
+                    different flavours. From luxurious restaurants to local streetfoods, <br>
+                    a delightful array of dishes were explored. <br> <!-- Paraghraph used for text and line breaks where needed -->
+                </p>
+              
+                <p> <!-- 2nd paragraph -->
+                    Thus came the idea of bringing these dishes right to your home. <br>
+                    Through the universal language of food, 
+                    <span class="navy">We</span><span class="red">Love</span><span class="navy">Food</span>
+                    set out to <br>
+                    provide a platform where food lovers could find a wide range <br>
+                    of delicious recipes to suit every taste and occasion. This way <br>
+                    our foodies can find all sorts of international flavours all in <br>
+                    one place and enjoy every bite till the end. Bon Appetit! 
+                </p> 
+            </div> <!-- Story container div end -->
+
+            <div class="Value">   <!-- New div for box containing company values -->
+                <h1> Our values...</h1> 
+                <div class="neon"> <!-- Neon class created for text effect -->
+                    <img class="loveicon" src="AboutUs-imgs/love.png" alt="Loveheart">
+                    <h2 class="learn"> Learn</h2> <!-- Class created for each heading to apply neon colour -->
+                    <h2 class="optimise"> Optimise</h2> 
+                    <h2 class="venture"> Venture</h2> 
+                    <h2 class="enjoy"> Enjoy</h2>
+                </div> <!-- Neon div end -->
+            </div> <!-- Value div end -->
+        </div> <!-- Container 2 div end -->
+
+        <!-- This is the icon from CSS validation to prove it is validated with no errors -->
+		<div class="css-valid"> 
+            <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" >
+        </div>
+
+    </body>
+
+</html>
