@@ -4,7 +4,12 @@ body { /* Styling the main body */
     background-color: #af1616; /* Add background colour */
 }
 
-nav {
+#searchbar {
+    background-color: yellow;
+    margin-bottom: 60px;
+}
+
+Nav {
     width: 100%; /* Keeps navigation bar full width of the screen */
     height: 150px; /* Determines height of the navigation bar */
     background-color: #DDC565;
@@ -23,7 +28,7 @@ li {
 }
 
 
-nav a { /* Styles the text of the navigation options */
+Nav a { /* Styles the text of the navigation options */
     color: white;
     display: block; /* Sets a space for each navigation option allowing it to take up the length of the text and appear side by side */
     text-align: center; /* Centers text in its block */
@@ -35,7 +40,7 @@ nav a { /* Styles the text of the navigation options */
     font-size: 30px; /* Determined text size */
 }
 
-nav a:hover { /* Styles for hover over the navigation options */
+Nav a:hover { /* Styles for hover over the navigation options */
     background-color: black; /* Makes the navigation option background black to show it is being hovered over */
     transition: 1s; /* Sets transition time (how long it takes for background to go black when hovered over) */
     font-weight: Bold; /* Makes the text go bold when hovered over */
@@ -76,6 +81,29 @@ nav a:hover { /* Styles for hover over the navigation options */
     margin: auto; /* Centers the carousel box in center of webpage */
     width: 650px; /* Sets a size for the carousel box */
     margin-bottom: 20px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.search input {
+    padding: 5px;
+    border-radius: 5px;
+    border: solid 4px black;
+    width: 25%;
+}
+
+.search button {
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: solid 4px black;
+    background-color: #242757;
+    color: wheat;
+    margin-left: 5px;
 }
 
 @media (max-width: 768px) { /* Style media query for when screen is smaller */
