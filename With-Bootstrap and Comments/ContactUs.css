@@ -1,3 +1,5 @@
+/* MY OWN CODE */
+
 body { /* Styling the main body */
     margin: 0;
     padding: 0; /* Setting no margin or padding for any content in the body*/
@@ -173,3 +175,5 @@ h3 { /* Styles the heading texts */
         border: solid black 4px; /* Has black border come in place of white */
     }
 } /* Media query end bracket */
+
+/* END OF MY OWN CODE */

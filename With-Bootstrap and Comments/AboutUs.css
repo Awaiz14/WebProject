@@ -1,3 +1,5 @@
+/* MY OWN CODE */
+
 body { /* Styling the main body */
     margin: 0;
     padding: 0; /* Setting no margin or padding for any content in the body*/
@@ -305,3 +307,5 @@ margin-bottom: 0px; /* allows paragraph text to appear closer up to title */
     margin-bottom: -30px; /* Margin spaces for position */
     margin-top: -20px; /* Margin spaces for position */
 }
+
+/* END OF MY OWN CODE */

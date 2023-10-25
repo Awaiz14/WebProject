@@ -1,3 +1,5 @@
+/* MY OWN CODE */
+
 body { /* Styling the main body */
     margin: 0;
     padding: 0; /* Setting no margin or padding for any content in the body*/
@@ -83,27 +85,27 @@ Nav a:hover { /* Styles for hover over the navigation options */
     margin-bottom: 20px;
 }
 
-.search {
+.search { /* Styles the search bar container */
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; /* Centers the search bar */
     margin-bottom: 20px;
 }
 
-.search input {
+.search input { /* Styles the search bar box */
     padding: 5px;
-    border-radius: 5px;
+    border-radius: 5px; /* Rounded box */
     border: solid 4px black;
-    width: 25%;
+    width: 25%; /* Takes up 25% of page width */
 }
 
-.search button {
+.search button { /* Styles the go button */
     padding: 5px 15px;
     border-radius: 5px;
     border: solid 4px black;
-    background-color: #242757;
-    color: wheat;
-    margin-left: 5px;
+    background-color: #242757; /* Set background colour */
+    color: white;
+    margin-left: 5px; /* Spaces it 5px away from search bar */
 }
 
 @media (max-width: 768px) { /* Style media query for when screen is smaller */
@@ -111,3 +113,5 @@ Nav a:hover { /* Styles for hover over the navigation options */
         width:100% /* Keeps the carousel width full depending on screen size */
     }
 }
+
+/* END OF MY OWN CODE */

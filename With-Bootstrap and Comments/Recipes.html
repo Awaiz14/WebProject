@@ -10,7 +10,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@1,700&family=Sail&display=swap" rel="stylesheet">
         <!-- Links elements to link external resources starting with Bootstrap, CSS style sheet and Google fonts -->
 
-        <style> /* Styling the bootstrap elements CSS internal */
+        <style> /* Styling the bootstrap elements CSS internal (MY OWN CODE) */
             .card {
                 background-color: white; /* Sets the recipe card background to white  */
             } 
@@ -61,9 +61,11 @@
                 border-radius: 40px;
                 margin: auto;
             }            
+            /* END OF MY OWN CODE */
         </style>
     </head>
 
+    <!-- MY OWN CODE -->
     <body> <!-- Main content of the webpage goes in here -->
         <div class="logo"> <!-- Div creates a container for the logo to appear on webpage -->
             <a href ="HomePage.html">
@@ -86,8 +88,10 @@
             <input type="text" placeholder="Search keyword" id="searchInput">
             <button type="submit" onclick="searchCards()">Go</button>
         </div>
+        <!-- END OF MY OWN CODE -->
 
         <!-- Strictly Bootstrap code added from Bootstrap website to create Recipe cards (changed to suit my webpage) -->
+        <!-- https://getbootstrap.com/docs/5.3/components/card/ -->
        <div class="container"> <!-- Using div for container which will contain all the recipe cards -->
             <div class="row gy-4"> <!-- Sets spacing between cards when they show vertically -->
                 <div class="col-12 col-md-6 col-lg-3"> <!-- Determines how many cards shall show in a line -->
@@ -186,12 +190,13 @@
                 </div> <!-- Ends each column class div -->
 
             </div> <!-- Ends the row div -->
-       </div> <!-- Ends container div -->
+       </div> <!-- Ends container div --> 
 
 
        <h1 class="exclusive"> Exclusive treats!</h1>
 
         <!-- Strictly Bootstrap code added from Bootstrap website to create Carousel (changed to suit my webpage) -->
+        <!-- https://getbootstrap.com/docs/5.3/components/carousel/ -->
        <div id="carousel" class="carousel slide"> <!-- Create ID to call in CSS -->
             <div class="carousel-indicators"> <!-- Creates indicators to show which image number is active -->
             <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -248,7 +253,7 @@
 
         <!-- JS cdn link for bootstrap elements to work -->
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-      <script src="Recipes.js"> </script>
+      <script src="Recipes.js"> </script> <!-- Own JS file -->
     </body>
 
 </html>
